@@ -13,7 +13,7 @@ spec:
         app: frontend
     spec:
       containers:
-     # - image: nginx
+     # - image: nginx RAJ temp test 2nd commit
       - image: phico/frontend:1.0
         imagePullPolicy: Always
         name: frontend
